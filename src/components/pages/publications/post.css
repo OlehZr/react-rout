@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(22, 22, 46);
+}
+.main-block{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ray{
+    width: 600px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.Anakin{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.ray-content{
+    text-align: start;
+}
+.anakin-content{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    flex: 0.3;
+}
+.right{
+    flex: 3;
+}
+p{
+    margin: 10px 0 10px 10px;
+    font-size: 16px;
+}
+.nickname{
+    font-weight: 700;
+}
+.date{
+    color: grey;
+}
